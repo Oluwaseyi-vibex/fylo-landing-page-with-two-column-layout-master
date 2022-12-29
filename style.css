@@ -1,0 +1,111 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  /* border: solid red 0.5px; */
+}
+
+header {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 30px;
+}
+
+.header-img {
+  width: 46%;
+}
+
+.logo {
+  width: 14%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 780px;
+  margin-top: 60px;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.nav-a {
+  color: #2b293e;
+}
+
+.nav-li {
+  font-size: 18px;
+}
+
+.all-files {
+  font-size: 36px;
+  color: hsl(243, 87%, 12%);
+  line-height: 50px;
+}
+
+.Fylo-stores {
+  font-size: 16px;
+  color: hsl(243, 87%, 12%);
+  line-height: 20px;
+
+}
+
+form{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#email-box{
+    width: 280px;
+    height: 40px;
+    padding-left: 15px;
+    color: hsl(0, 0%, 75%);
+    padding-top: 3px;
+}
+
+.row1-button {
+    width: 182px;
+    height: 47px;
+    background: hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 100;
+    box-shadow: hsl(240deg 75% 98%) 5px 5px 0px;
+}
+
+.row1{
+    margin-top: 45px;
+}
+
+.main-img{
+    width: 46%;
+}
+
+main{
+    display: flex;
+    width: 100%;
+justify-content: center;
+background: hsl(240, 75%, 98%);
+}
+
+.p3-icon{
+    display: flex;
+}
